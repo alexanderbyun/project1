@@ -2,11 +2,11 @@ $(() => {
 
 const $footer = $('<div>').attr('class', 'flex-footer')
 
-const $githubImg = $('<img>').attr('src', 'images/github-blk.png').width(60)
-const $facebookImg = $('<img>').attr('src', 'images/facebook.png').width(60)
-const $instagramImg = $('<img>').attr('src', 'images/instagram.png').width(60)
-const $linkedinImg = $('<img>').attr('src', 'images/linkedin.png').width(60)
-const $twitterImg = $('<img>').attr('src', 'images/twitter.png').width(60)
+const $githubImg = $('<img>').attr('src', 'images/github-blk.png').width(50)
+const $facebookImg = $('<img>').attr('src', 'images/facebook.png').width(50)
+const $instagramImg = $('<img>').attr('src', 'images/instagram.png').width(50)
+const $linkedinImg = $('<img>').attr('src', 'images/linkedin.png').width(50)
+const $twitterImg = $('<img>').attr('src', 'images/twitter.png').width(50)
 
 const $githubUrl = $('<a>').attr('href', 'http://github.com').attr('target', 'blank')
 const $facebookUrl = $('<a>').attr('href', 'http://facebook.com').attr('target', 'blank')
