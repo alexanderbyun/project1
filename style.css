@@ -137,7 +137,6 @@ a:hover img {
     width: 100%;
     align-items: center;
     justify-content: flex-start;
-
 }
 
 .flex-cont3 {
@@ -194,32 +193,32 @@ a:hover img {
     width: 80%;
     display: flex;
     margin-left: 10%;
-  }
+}
 
-  .carousel-images {
+.carousel-images {
     flex-direction: column;
-  }
+}
 
-  .carousel-images img {
+.carousel-images img {
     display: none;
     width: 80%;
     border-radius: 50px;
-  }
-  
-  .carousel-button {
+}
+
+.carousel-button {
     align-self: center;
     color: rgb(42, 42, 42);
     font-size: 15pt;
     margin-right: 15%;
-  }
+}
 
-  .carousel-button:hover {
-      cursor: pointer;
-  }
+.carousel-button:hover {
+    cursor: pointer;
+}
 
-  .carousel-images img:first-of-type {
+.carousel-images img:first-of-type {
     display: block;
-  }
+}
 
 /* ================================================= */
 /* Projects */
