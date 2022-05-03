@@ -186,19 +186,40 @@ a:hover img {
 }
 
 .flex-cont5 {
+    align-self: center;
+    margin-left: 15%;
+}
+
+.carousel-container {
+    width: 80%;
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-top: 5%;
-}
+    margin-left: 10%;
+  }
 
-.theTeam {
-    width: 25%;
-    padding: 2px;
-    margin: auto;
-}
+  .carousel-images {
+    flex-direction: column;
+  }
 
+  .carousel-images img {
+    display: none;
+    width: 80%;
+    border-radius: 50px;
+  }
+  
+  .carousel-button {
+    align-self: center;
+    color: rgb(42, 42, 42);
+    font-size: 15pt;
+    margin-right: 15%;
+  }
+
+  .carousel-button:hover {
+      cursor: pointer;
+  }
+
+  .carousel-images img:first-of-type {
+    display: block;
+  }
 
 /* ================================================= */
 /* Projects */
@@ -352,13 +373,17 @@ img {
         inline-size: 500px;
     }
 
-    /* .flex-projects {
-        flex-direction: row;
-    } */
-
     #modalContent {
         height: 250px;
         width: 400px;
+    }
+
+    .flex-cont5 {
+        margin-left: 2%;
+    }
+
+    .carousel-button {
+        margin-right: 0%;
     }
 }
 
